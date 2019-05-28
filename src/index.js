@@ -20,8 +20,23 @@ const MermaidPlugIn = (md, opts)=> {
     const token = tokens[idx]
     const code = `${token.info} \n ${token.content.trim()}`
     if (token.info === 'mermaid' || token.info === 'gantt' || token.info === 'sequenceDiagram' || token.info.match(/^graph (?:TB|BT|RL|LR|TD);?$/)) {
-      return MermaidChart(code)
+      
+       try {
+                return MermaidChart(code)
+         
+            } catch (err) {
+                console.log(err)
+                return `<pre>${err}</pre>`
+            }
+      
+      
     }
+    
+    
+
+
+           
+       
     // const firstLine = code.split(/\n/)[0].trim()
     // if (firstLine === 'gantt' || firstLine === 'sequenceDiagram' || firstLine.match(/^graph (?:TB|BT|RL|LR|TD);?$/)) {
     //   return mermaidChart(code)
