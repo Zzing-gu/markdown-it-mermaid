@@ -1,6 +1,6 @@
 {
-  "name": "@liradb2000/markdown-it-mermaid",
-  "version": "0.3.2",
+  "name": "@Zzing-gu/markdown-it-mermaid",
+  "version": "0.3.3",
   "description": "Forked Package markdown-it-mermaid (Newely).",
   "main": "src/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liradb2000/markdown-it-mermaid.git"
+    "url": "git+https://github.com/Zzing-gu/markdown-it-mermaid.git"
   },
   "keywords": [
     "markdown-it-plugin",
@@ -18,12 +18,12 @@
     "flowchart",
     "sequence"
   ],
-  "author": "DB KIM <https://github.com/liradb2000>",
+  "author": "Hosuk Chung <https://github.com/Zzing-gu>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/liradb2000/markdown-it-mermaid/issues"
+    "url": "https://github.com/Zzing-gu/markdown-it-mermaid/issues"
   },
-  "homepage": "https://github.com/liradb2000/markdown-it-mermaid#readme",
+  "homepage": "https://github.com/Zzing-gu/markdown-it-mermaid#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
